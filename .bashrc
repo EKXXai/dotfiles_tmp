@@ -1,8 +1,3 @@
-#!/bin/bash
-
-utilisateur="EKXXai"
-echo "Bienvenue, $utilisateur"
-
 #
 # ~/.bashrc
 #
