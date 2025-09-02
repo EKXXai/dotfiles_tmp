@@ -7,7 +7,12 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\h \W]\$ '
+
+if("$USER" == "ekxx")
+then
+    PS1='[\u@\h \W]\$ '
+else
+    PS1='[\h \W]\$ '
 
 # alias pour ls & ll
 
