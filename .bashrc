@@ -12,7 +12,7 @@ PS1='[\h \W]\$ '
 # alias pour ls & ll
 
 alias ls='ls -l -a'
-alias ll='ls -l -a'
+alias ll='ll -l -a'
 
 # alias pour clear
 
