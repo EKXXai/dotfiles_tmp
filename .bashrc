@@ -21,17 +21,20 @@ alias c='clear'
 # alias pour la couleur rouge sur les mots recherches
 
 alias grepc='grep --color=always'
+
 # Creer nouveau dossier et s'y deplacer
 
 function md() {
     mkdir -p "$@" && cd "$@"
 }
 
-# Creen un fichier et l'ouvrir avec vim
+# Creer un fichier et l'ouvrir avec vim
 
 function vi(){
     touch "$@" && vim "$@"
 }
+
+# Recherche insensible a la casse avec grep
 
 function mygrep(){
     grep -i "$@"
