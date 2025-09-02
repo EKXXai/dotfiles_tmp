@@ -2,8 +2,8 @@
 
 mkdir bin cegep projets && 
 
-sudo pacman -Sy git vim gcc gdb python3 python3-pip python3-venv &&
+sudo pacman -Sy git vim gcc gdb python3 python-pip python3-venv &&
 
-cp dotfiles_tmp/.bashrc ~/.bashrc &&
+cp .bashrc ~ &&
 
-cp dotfiles_tmp/ ~/.config
+cp .bashrc ~/.config
